@@ -1,0 +1,89 @@
+{
+
+// Necessary C++ extensions settings
+
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "MSYS2": {
+            "path": "C:\\msys64\\usr\\bin\\bash.exe",
+            "args": [
+                "--login",
+                "-i"
+            ],
+            "env": {
+                "MSYSTEM": "MINGW64",
+                "CHERE_INVOKING": "1"
+            }
+        }
+    },
+
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "C_Cpp.errorSquiggles": "enabled",
+    "C_Cpp.clang_format_fallbackStyle": "Google",
+    "C_Cpp.vcFormat.indent.namespaceContents": false,
+    "C_Cpp.vcFormat.wrap.preserveBlocks": "allOneLineScopes",
+    "C_Cpp.vcFormat.space.removeAroundMemberOperators": false,
+    "C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyFunction": true,
+    "C_Cpp.vcFormat.newLine.beforeElse": false,
+    "C_Cpp.vcFormat.space.pointerReferenceAlignment": "center",
+    "C_Cpp.vcFormat.indent.caseLabels": true,
+    "C_Cpp.vcFormat.space.withinInitializerListBraces": false,
+    
+    "cmake.configureOnOpen": true,
+    "cmake.generator": "Ninja Multi-Config",
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cmake.cmakePath": "${command:cmake.buildkit.cmake.exe}",
+    "cmake.preferredGenerators": [
+        "Unix Makefiles"
+    ],
+    "cmake.configureSettings": {
+        "CMAKE_MAKE_PROGRAM": "${command:cmake.buildkit.generator.exe}",
+        "CMAKE_VERBOSE_MAKEFILE": false
+    },
+
+    "clangd.path": "C:\\msys64\\mingw64\\bin\\clangd.exe",
+    "clangd.arguments": [
+        "-background-index",
+        "-compile-commands-dir=build"
+    ],
+
+// Personal setting favorites
+
+    "window.titleBarStyle": "custom",
+
+    "workbench.colorTheme": "Owlet (Outrun)",
+    "window.autoDetectColorScheme": true,
+    "workbench.preferredLightColorTheme": "Solarized Light",
+    "workbench.preferredDarkColorTheme": "Owlet (Outrun)",
+
+    "editor.rulers": [
+        80,
+        100
+    ],
+    
+    "explorer.openEditors.sortOrder": "fullPath",
+
+// Extensions settings
+
+
+    "betterOpenEditors.PackagePatterns": "**/*",
+    "betterOpenEditors.ShowWorkspaceIcon": true,
+    "betterOpenEditors.InsertSpacesAroundSlashes": true,
+    "betterOpenEditors.InsertSpaceForLastSlug": true,
+
+
+}

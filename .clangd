@@ -1,0 +1,4 @@
+Diagnostics:
+  Suppress:
+    -Wc++11-narrowing
+    bugprone-narrowing-conversion

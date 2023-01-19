@@ -1,0 +1,23 @@
+{
+    "recommendations": [
+        "ms-vscode.cpptools-extension-pack",
+        "llvm-vs-code-extensions.vscode-clangd",
+        "fougas.msys2",
+        "jeff-hykin.better-cpp-syntax",
+        "aaron-bond.better-comments",
+        "vscode-icons-team.vscode-icons",
+        "itsjonq.owlet",
+        "omagerio.tabsort",
+        "McSodbrenner.better-open-editors",
+        "EditorConfig.EditorConfig",
+        "DavidAnson.vscode-markdownlint",
+        "christian-kohler.path-intellisense",
+        "TabNine.tabnine-vscode",
+        "gruntfuggly.todo-tree",
+        "ryu1kn.partial-diff",
+        "eamodio.gitlens",
+        "donjayamanne.githistory",
+        "wakatime.vscode-wakatime",
+        "ms-vsliveshare.vsliveshare",
+    ]
+}
